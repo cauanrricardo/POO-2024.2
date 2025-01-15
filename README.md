@@ -1,12 +1,12 @@
-# Projeto de POO em Java
+# 🚀 Projeto de POO em Java
 
 Este repositório contém uma coleção de exercícios, feito na grade de **Progamação Orientada a objetos** em java. O conteúdo está organizado em diferentes tópicos, abrangendo desde conceitos básicos até tópicos mais avançados.
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 Cada tópico principal possui sua própria pasta, que contém subpastas representando os exercícios. Dentro de cada subpasta, há um arquivo README específico explicando o exercício e o código correspondente.
 
-### Tópicos
+### 🗂️ Tópicos
 
 1. **Primeiras Classes**
    - Conceitos básicos de criação e estruturação de classes.
@@ -28,7 +28,7 @@ Cada tópico principal possui sua própria pasta, que contém subpastas represen
 6. **Herança**
    - Aplicação de herança e polimorfismo em Java.
 
-## Como Navegar
+## 🛠️ Como Navegar
 
 1. Escolha o tópico de interesse.
 2. Acesse a subpasta correspondente ao exercício.
@@ -36,7 +36,7 @@ Cada tópico principal possui sua própria pasta, que contém subpastas represen
 
 ---
 
-## Como Executar
+## ⚙️ Como Executar
 
 1. Clone o repositório:
    ```bash
