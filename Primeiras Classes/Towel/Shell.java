@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 class Towel {
 
-    String color;
-    String size;
-    int wetness;
+    public String color;
+    public String size;
+    public int wetness;
 
     public Towel(String color, String size) {
         this.color = color;
@@ -15,10 +15,9 @@ class Towel {
     public void dry(int amount) {
         wetness += amount;
         if (wetness > getMaxwetness()) {
-            wetness = getMaxwetness(); 
+            wetness = getMaxwetness();
         }
     }
-    
 
     public void wringOut() {
         wetness = 0;
@@ -81,9 +80,10 @@ public class Shell {
                 // ENXUGUE
                 int quantidade = Integer.parseInt(par[1]);
                 towel.dry(quantidade);
-            
+
                 // Verifique se a toalha está encharcada
-                if (towel.wetness == towel.getMaxwetness()) { //pq colocamos no metodo dry, se wetness > getMaxwetness -> wetness = getMaxwetness
+                if (towel.wetness == towel.getMaxwetness()) { // pq colocamos no metodo dry, se wetness > getMaxwetness
+                                                              // -> wetness = getMaxwetness
                     System.out.println("toalha encharcada");
                 }
             } else if (cmd.equals("seca")) {
