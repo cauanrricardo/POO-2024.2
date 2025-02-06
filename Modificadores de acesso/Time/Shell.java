@@ -1,3 +1,5 @@
+package Time;
+
 import java.util.Scanner;
 
 class Time {
